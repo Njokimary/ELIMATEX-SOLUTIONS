@@ -1,0 +1,13 @@
+<svg viewBox="0 0 800 800" preserveAspectRatio="xMidYMid slice" role="img" aria-label="Illustration of an IoT warehouse monitoring dashboard with temperature, humidity and door sensors" xmlns="http://www.w3.org/2000/svg" width="800" height="800" font-family="Plus Jakarta Sans, Arial, sans-serif">
+<rect width="800" height="800" fill="#1E1B4B"/>
+<rect x="90" y="190" width="620" height="420" rx="24" fill="#2A2668"/>
+<text x="120" y="236" font-size="16" font-weight="800" fill="#fff">Warehouse monitor</text>
+<rect x="560" y="216" width="120" height="28" rx="14" fill="#DDF8EC"/><text x="578" y="235" font-size="12" font-weight="800" fill="#127A4D">● 6 sensors live</text>
+<rect x="120" y="262" width="170" height="70" rx="14" fill="#3A3585"/><text x="136" y="288" font-size="11" fill="#B9B6E0">Temperature</text><text x="136" y="318" font-size="22" font-weight="800" fill="#fff">21.4°C</text>
+<rect x="308" y="262" width="170" height="70" rx="14" fill="#3A3585"/><text x="324" y="288" font-size="11" fill="#B9B6E0">Humidity</text><text x="324" y="318" font-size="22" font-weight="800" fill="#fff">54%</text>
+<rect x="496" y="262" width="184" height="70" rx="14" fill="#FF5A36"/><text x="512" y="288" font-size="11" fill="#FFE3D3">Door B</text><text x="512" y="318" font-size="22" font-weight="800" fill="#fff">Open 4m</text>
+<line x1="120" y1="380" x2="680" y2="380" stroke="#3A3585" stroke-width="1"/><line x1="120" y1="440" x2="680" y2="440" stroke="#3A3585" stroke-width="1"/><line x1="120" y1="500" x2="680" y2="500" stroke="#3A3585" stroke-width="1"/><line x1="120" y1="560" x2="680" y2="560" stroke="#3A3585" stroke-width="1"/>
+<path d="M130 560 L190 520 L250 535 L310 470 L370 490 L430 420 L490 440 L550 380 L610 400 L670 340 L670 580 L130 580Z" fill="#FF9F1C" opacity=".15"/>
+<path d="M130 560 L190 520 L250 535 L310 470 L370 490 L430 420 L490 440 L550 380 L610 400 L670 340" stroke="#FF9F1C" stroke-width="4" fill="none" stroke-linejoin="round"/>
+<circle cx="670" cy="340" r="8" fill="#FFD23F"/>
+</svg>
