@@ -9,18 +9,31 @@
     "lint": "eslint"
   },
   "dependencies": {
+<<<<<<< HEAD
     "next": "16.4.5",
+=======
+    "next": "16.4.6",
+>>>>>>> 9e8fc93eba2a1a38255ed51cceaebc3ceb8e1639
     "react": "19.3.0",
     "react-dom": "19.3.0"
   },
   "devDependencies": {
+<<<<<<< HEAD
     "@tailwindcss/turbopack": "^4",
+=======
+    "@tailwindcss/turbopack": "4.3.3",
+>>>>>>> 9e8fc93eba2a1a38255ed51cceaebc3ceb8e1639
     "@types/node": "^20",
     "@types/react": "^19",
     "@types/react-dom": "^19",
     "eslint": "^9",
+<<<<<<< HEAD
     "eslint-config-next": "16.4.5",
     "tailwindcss": "^4",
+=======
+    "eslint-config-next": "16.4.6",
+    "tailwindcss": "4.3.3",
+>>>>>>> 9e8fc93eba2a1a38255ed51cceaebc3ceb8e1639
     "typescript": "^5"
   }
 }
