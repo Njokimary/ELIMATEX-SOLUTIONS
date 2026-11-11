@@ -23,7 +23,7 @@ export default function ServicesPage() {
             Everything your business needs, <span className="text-brand-gradient">under one roof.</span>
           </>
         }
-        intro="Six services, organised into three pillars. Start with one or bring us the whole stack — we make sure it all works together and stays working."
+        intro="Eight services, organised into four pillars. Start with one or bring us the whole stack — we make sure it all works together and stays working."
       >
         <Button href="/contact">
           Get a free consultation <Arrow />

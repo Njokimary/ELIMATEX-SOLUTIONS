@@ -72,7 +72,7 @@ export default function AboutPage() {
               </p>
               <p>
                 Elimatex was founded to change that. We bring websites, custom software, hosting, messaging,
-                consulting and IoT together under one accountable team, built by engineers who understand both the
+                consulting, IoT and AI together under one accountable team, built by engineers who understand both the
                 technology and the realities of doing business in Kenya.
               </p>
             </div>

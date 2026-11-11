@@ -35,6 +35,8 @@ export const metadata: Metadata = {
     "M-Pesa integration",
     "IoT solutions Kenya",
     "technology consulting",
+    "AI integration Kenya",
+    "insurance software Kenya",
   ],
   openGraph: {
     type: "website",

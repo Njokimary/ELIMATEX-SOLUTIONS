@@ -26,7 +26,7 @@ export default async function Footer() {
           <div>
             <Logo />
             <p className="mt-4 max-w-xs text-muted">
-              Websites, custom software, hosting, bulk messaging and IoT for growing businesses. Engineered in Nairobi.
+              Websites, custom software, hosting, bulk messaging, IoT, AI integration and insurance solutions for growing businesses. Engineered in Nairobi.
             </p>
           </div>
 

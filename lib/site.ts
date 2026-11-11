@@ -7,9 +7,9 @@ export const site = {
   name: "Elimatex Solutions",
   shortName: "elimatex",
   url: "https://elimatex.co.ke", // ← change to your live domain
-  tagline: "Websites, software, hosting, bulk SMS & email and IoT for Kenyan businesses.",
+  tagline: "Websites, software, hosting, bulk SMS & email, IoT, AI and insurance solutions for Kenyan businesses.",
   description:
-    "Elimatex Solutions designs, builds, hosts and supports the technology businesses run on — websites, custom web apps, hosting, bulk SMS & email, technology consulting and IoT. Based in Nairobi, Kenya.",
+    "Elimatex Solutions designs, builds, hosts and supports the technology businesses run on — websites, custom web apps, hosting, bulk SMS & email, technology consulting, IoT, AI integration and insurance solutions. Based in Nairobi, Kenya.",
   email: "marynjoki738@gmail.com", // temporary — switch to hello@elimatex.co.ke once domain email is set up
   phone: "+254 741 243 693", // display format
   whatsapp: "254741243693", // digits only, country code first

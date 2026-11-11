@@ -5,7 +5,8 @@ const roadmap = [
   { live: true, title: "Websites & Custom Apps", text: "Company sites, e-commerce, portals and business systems." },
   { live: true, title: "Hosting, Email & SMS", text: "Managed hosting, business email and bulk messaging." },
   { live: true, title: "Consulting & IoT", text: "Technology advice and connected-device solutions." },
-  { live: false, title: "Client Portal & AI", text: "Self-service billing, SMS credits and AI chat assistants for your website." },
+  { live: true, title: "AI & Insurance", text: "AI assistants and automation, plus systems for insurance agencies and brokers." },
+  { live: false, title: "Client Portal", text: "Self-service billing, SMS credits and account management in one place." },
 ];
 
 export default function Roadmap() {
@@ -18,7 +19,7 @@ export default function Roadmap() {
           We start with the essentials and keep adding the tools Kenyan businesses ask us for.
         </p>
 
-        <div className="mt-12 grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
+        <div className="mt-12 grid gap-4 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5">
           {roadmap.map((item, i) => (
             <Reveal key={item.title} delay={i * 80}>
               <div

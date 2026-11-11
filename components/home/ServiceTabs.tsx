@@ -18,7 +18,7 @@ export default function ServiceTabs() {
           <div>
             <Kicker>What we do</Kicker>
             <h2 className="max-w-2xl text-4xl font-extrabold md:text-5xl">
-              Three pillars. Everything your business needs.
+              Four pillars. Everything your business needs.
             </h2>
           </div>
           <p className="max-w-md text-lg text-muted">

@@ -179,6 +179,57 @@ export const pillars: Pillar[] = [
       },
     ],
   },
+  {
+    slug: "ai-insurance",
+    number: "04",
+    tab: "AI & Insurance",
+    title: "AI integration & insurance solutions",
+    intro: "Put AI to work in your business, and run your insurance operations on one system.",
+    description:
+      "We integrate practical AI into the tools you already use — chat assistants, document processing and smart automation — and build insurance systems that handle quotes, policies, renewals, claims and M-Pesa premium payments.",
+    illustration: "/illustrations/ai-insurance.svg",
+    illustrationAlt: "An AI chat assistant answering a customer next to an insurance policy renewal dashboard",
+    cta: "Talk to us about AI",
+    services: [
+      {
+        code: "A",
+        name: "AI Integration for Business",
+        summary: "AI assistants and automation built into your website, WhatsApp and systems.",
+        features: [
+          "AI chat assistants for your website and WhatsApp",
+          "Document reading — IDs, invoices, logbooks and forms",
+          "Automated reports, summaries and email drafting",
+          "AI added to your existing software through APIs",
+        ],
+      },
+      {
+        code: "S",
+        name: "Insurance Solutions",
+        summary: "Systems for agencies and brokers: policies, renewals, claims and payments.",
+        features: [
+          "Quotes, policy records and client management",
+          "Automatic renewal reminders by SMS and email",
+          "Claims logging and status tracking",
+          "M-Pesa premium payments, commissions and reports",
+        ],
+      },
+    ],
+    idealFor: ["Insurance agencies & brokers", "Saccos & microfinance", "Customer service teams", "Growing SMEs"],
+    faqs: [
+      {
+        q: "What can AI realistically do for my business?",
+        a: "Most businesses start with an assistant that answers common customer questions, or with automating repetitive paperwork such as reading forms and preparing reports. We begin with one clear use case, measure the time saved, then expand.",
+      },
+      {
+        q: "Is our customer data safe when using AI?",
+        a: "We design every integration with the Kenya Data Protection Act in mind — limiting what data the AI sees, keeping records on secure servers and giving you control over what is stored.",
+      },
+      {
+        q: "Can the insurance system work with our existing underwriters?",
+        a: "Yes. We build around your current workflow and products, and can import your existing client and policy records so nothing is lost when you switch.",
+      },
+    ],
+  },
 ];
 
 export const getPillar = (slug: string) => pillars.find((p) => p.slug === slug);
