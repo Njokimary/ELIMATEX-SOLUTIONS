@@ -1,37 +1,10 @@
 @import "tailwindcss";
 
-<<<<<<< HEAD
-/* Font (loaded in layout.tsx) */
-=======
 /* ---------- Font (loaded with next/font in app/layout.tsx) ---------- */
->>>>>>> 9e8fc93eba2a1a38255ed51cceaebc3ceb8e1639
 @theme inline {
   --font-sans: var(--font-jakarta), system-ui, sans-serif;
 }
 
-<<<<<<< HEAD
-/* Elimatex brand colours */
-@theme {
-  --color-coral: #FF5A36;
-  --color-tangerine: #FF9F1C;
-  --color-sun: #FFD23F;
-  --color-ink: #1E1B4B;
-  --color-ink-2: #2A2668;
-  --color-ink-3: #3A3585;
-  --color-lilac: #EDEBFF;
-  --color-cream: #FFF8F1;
-  --color-sand: #F4E9DD;
-  --color-muted: #625F86;
-  --color-muted-dark: #B9B6E0;
-}
-
-/* Our signature coral → orange gradient */
-@utility bg-brand-gradient {
-  background-image: linear-gradient(120deg, var(--color-coral), var(--color-tangerine));
-}
-@utility text-brand-gradient {
-  background-image: linear-gradient(120deg, var(--color-coral), var(--color-tangerine));
-=======
 /* ---------- Elimatex brand colours ----------
    Each --color-* below becomes Tailwind classes automatically,
    e.g. --color-coral → bg-coral, text-coral, border-coral        */
@@ -61,15 +34,10 @@
 @utility text-brand-gradient {
   background-image: linear-gradient(120deg, var(--color-coral), var(--color-tangerine));
   -webkit-background-clip: text;
->>>>>>> 9e8fc93eba2a1a38255ed51cceaebc3ceb8e1639
   background-clip: text;
   color: transparent;
 }
 
-<<<<<<< HEAD
-html { scroll-behavior: smooth; }
-h1, h2, h3 { letter-spacing: -0.025em; line-height: 1.12; }
-=======
 @utility container-page {
   margin-inline: auto;
   width: 100%;
@@ -129,4 +97,3 @@ h3 {
     animation: none;
   }
 }
->>>>>>> 9e8fc93eba2a1a38255ed51cceaebc3ceb8e1639

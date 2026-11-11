@@ -1,13 +1,3 @@
-<<<<<<< HEAD
-export default function AboutPage() {
-  return (
-    <main>
-      <h1>About Elimatex</h1>
-      <p>Software studio based in Nairobi.</p>
-    </main>
-  );
-}
-=======
 import type { Metadata } from "next";
 import Image from "next/image";
 import Button, { Arrow } from "@/components/ui/Button";
@@ -123,4 +113,3 @@ export default function AboutPage() {
     </>
   );
 }
->>>>>>> 9e8fc93eba2a1a38255ed51cceaebc3ceb8e1639
