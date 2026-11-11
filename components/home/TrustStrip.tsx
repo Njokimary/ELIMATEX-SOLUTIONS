@@ -14,6 +14,11 @@ const clients = [
     logo: "/clients/zerah-ascent.png",
     href: "/work/zerah-ascent",
   },
+  {
+    name: "Uvumbuzi Community Network",
+    logo: "/clients/uvumbuzi-community-network.jpg",
+    href: "https://uvumbuzicn.africa/",
+  },
 ];
 
 export default function TrustStrip() {
@@ -27,6 +32,9 @@ export default function TrustStrip() {
           <li key={c.name}>
             <Link
               href={c.href}
+              {...(c.href.startsWith("http")
+                ? { target: "_blank", rel: "noopener noreferrer" }
+                : {})}
               className="flex h-16 items-center gap-3 rounded-xl border-[1.5px] border-line bg-white py-2 pl-2 pr-5 transition hover:-translate-y-0.5 hover:shadow-lg hover:shadow-ink/10"
             >
               <Image
